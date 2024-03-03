@@ -1,0 +1,8 @@
+var A = 18;
+console.log(A);
+
+var B = 15;
+console.log(B);
+
+var C = 22;
+console.log(C);
