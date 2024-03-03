@@ -1,0 +1,11 @@
+const prompt = require('prompt-sync')();
+
+var v1 = prompt("Digite o primeiro número:");
+var v2 = prompt("Digite o segundo número:");
+var v3 = prompt("Digite o terceiro número:");
+
+soma = parseInt(v1) + parseInt(v2) + parseInt(v3); 
+console.log("A soma é: " + soma); 
+
+media = soma / 3;
+console.log("A média é: " + media); 
